@@ -21,14 +21,14 @@ import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.http.ssl.SSLContextBuilder;
+import org.apache.http.nio.conn.ssl.SSLIOSessionStrategy;import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.http.ssl.SSLContexts;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.net.ssl.SSLContext;
+import javax.net.ssl.HostnameVerifier;import javax.net.ssl.SSLContext;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -91,6 +91,8 @@ public class ElasticConnection {
                                     }
                                     if (sslContext != null) {
                                         httpClientBuilder.setSSLContext(sslContext);
+                                        // do not validate hostname
+                                        httpClientBuilder.setSSLHostnameVerifier((hostname, session) -> true);
                                     }
                                     return httpClientBuilder;
                                 }
