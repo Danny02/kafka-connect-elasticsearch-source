@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--~
   ~ Copyright 2018 Dario Balinzo
+  ~ Copyright 2023 Daniel Heinrich
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -25,9 +26,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <groupId>com.github.dariobalinzo</groupId>
+    <groupId>com.github.danny02</groupId>
     <artifactId>elastic-source-connect</artifactId>
-    <version>1.5.5</version>
+    <version>1.5.6</version>
 
     <licenses>
         <license>
