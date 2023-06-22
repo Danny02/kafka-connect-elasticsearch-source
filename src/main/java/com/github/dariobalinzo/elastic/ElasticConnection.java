@@ -91,9 +91,9 @@ public class ElasticConnection {
                                     }
                                     if (sslContext != null) {
                                         httpClientBuilder.setSSLContext(sslContext);
-                                        // do not validate hostname
-                                        httpClientBuilder.setSSLHostnameVerifier((hostname, session) -> true);
                                     }
+                                    // do not validate hostname
+                                    httpClientBuilder.setSSLHostnameVerifier((hostname, session) -> true);
                                     return httpClientBuilder;
                                 }
                         )
