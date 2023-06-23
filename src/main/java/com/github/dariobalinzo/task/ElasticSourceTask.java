@@ -240,38 +240,43 @@ public class ElasticSourceTask extends SourceTask {
     private void parseResult(PageResult pageResult, List<SourceRecord> results) {
         String index = pageResult.getIndex();
         for (Map<String, Object> elasticDocument : pageResult.getDocuments()) {
-            Map<String, String> sourcePartition = Collections.singletonMap(INDEX, index);
-            Map<String, String> sourceOffset = offsetSerializer.toMapOffset(
-                    cursorField,
-                    secondaryCursorField,
-                    elasticDocument
-            );
-            String key = offsetSerializer.toStringOffset(
-                    cursorField,
-                    secondaryCursorField,
-                    index,
-                    elasticDocument
-            );
+            try {
+                Map<String, String> sourcePartition = Collections.singletonMap(INDEX, index);
+                Map<String, String> sourceOffset = offsetSerializer.toMapOffset(
+                        cursorField,
+                        secondaryCursorField,
+                        elasticDocument
+                );
+                String key = offsetSerializer.toStringOffset(
+                        cursorField,
+                        secondaryCursorField,
+                        index,
+                        elasticDocument
+                );
 
-            lastCursor.put(index, pageResult.getLastCursor());
-            sent.merge(index, 1, Integer::sum);
+                lastCursor.put(index, pageResult.getLastCursor());
+                sent.merge(index, 1, Integer::sum);
 
-            documentFilters.forEach(jsonFilter -> jsonFilter.filter(elasticDocument));
+                documentFilters.forEach(jsonFilter -> jsonFilter.filter(elasticDocument));
 
-            Schema schema = schemaConverter.convert(elasticDocument, index);
-            Struct struct = structConverter.convert(elasticDocument, schema);
+                Schema schema = schemaConverter.convert(elasticDocument, index);
+                Struct struct = structConverter.convert(elasticDocument, schema);
 
-            SourceRecord sourceRecord = new SourceRecord(
-                    sourcePartition,
-                    sourceOffset,
-                    topic + index,
-                    //KEY
-                    Schema.STRING_SCHEMA,
-                    key,
-                    //VALUE
-                    schema,
-                    struct);
-            results.add(sourceRecord);
+                SourceRecord sourceRecord = new SourceRecord(
+                        sourcePartition,
+                        sourceOffset,
+                        topic + index,
+                        //KEY
+                        Schema.STRING_SCHEMA,
+                        key,
+                        //VALUE
+                        schema,
+                        struct);
+                results.add(sourceRecord);
+            } catch (Throwable t) {
+                String id = elasticDocument.get("es-id").toString();
+                throw new RuntimeException("failed processing document with id " + id + " on index " + index, t);
+            }
         }
     }
 
