@@ -16,6 +16,8 @@
 
 package com.github.dariobalinzo.task;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dariobalinzo.ElasticSourceConnectorConfig;
 import com.github.dariobalinzo.Version;
 import com.github.dariobalinzo.elastic.CursorField;
@@ -71,6 +73,7 @@ public class ElasticSourceTask extends SourceTask {
     private ElasticRepository elasticRepository;
 
     private final List<DocumentFilter> documentFilters = new ArrayList<>();
+    private boolean schemaless;
 
     @Override
     public String version() {
@@ -99,6 +102,8 @@ public class ElasticSourceTask extends SourceTask {
         secondaryCursorSearchField = config.getString(ElasticSourceConnectorConfig.SECONDARY_INCREMENTING_FIELD_NAME_CONFIG);
         secondaryCursorField = secondaryCursorSearchField == null ? null : new CursorField(secondaryCursorSearchField);
         pollingMs = Integer.parseInt(config.getString(ElasticSourceConnectorConfig.POLL_INTERVAL_MS_CONFIG));
+
+        schemaless = config.getBoolean(ElasticSourceConnectorConfig.CONNECTOR_SCHEMA_LESS_CONFIG);
 
         initConnectorFilters();
         initConnectorFieldConverter();
@@ -259,19 +264,41 @@ public class ElasticSourceTask extends SourceTask {
 
                 documentFilters.forEach(jsonFilter -> jsonFilter.filter(elasticDocument));
 
-                Schema schema = schemaConverter.convert(elasticDocument, index);
-                Struct struct = structConverter.convert(elasticDocument, schema);
+                SourceRecord sourceRecord;
+                if(schemaless) {
+                    byte[] data;
+                    try {
+                        data = new ObjectMapper().writeValueAsBytes(elasticDocument);
+                    } catch (JsonProcessingException e) {
+                        throw new RuntimeException(e);
+                    }
+                    sourceRecord =
+                            sourceRecord = new SourceRecord(
+                                    sourcePartition,
+                                    sourceOffset,
+                                    topic + index,
+                                    //KEY
+                                    Schema.STRING_SCHEMA,
+                                    key,
+                                    //VALUE
+                                    Schema.BYTES_SCHEMA,
+                                    data);
+                } else {
+                    Schema schema = schemaConverter.convert(elasticDocument, index);
+                    Struct struct = structConverter.convert(elasticDocument, schema);
 
-                SourceRecord sourceRecord = new SourceRecord(
-                        sourcePartition,
-                        sourceOffset,
-                        topic + index,
-                        //KEY
-                        Schema.STRING_SCHEMA,
-                        key,
-                        //VALUE
-                        schema,
-                        struct);
+                    sourceRecord = new SourceRecord(
+                            sourcePartition,
+                            sourceOffset,
+                            topic + index,
+                            //KEY
+                            Schema.STRING_SCHEMA,
+                            key,
+                            //VALUE
+                            schema,
+                            struct);
+                }
+
                 results.add(sourceRecord);
             } catch (Throwable t) {
                 String id = elasticDocument.get("es-id").toString();
