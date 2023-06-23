@@ -28,7 +28,7 @@
 
     <groupId>com.github.danny02</groupId>
     <artifactId>elastic-source-connect</artifactId>
-    <version>1.5.12</version>
+    <version>1.5.13</version>
 
     <licenses>
         <license>
