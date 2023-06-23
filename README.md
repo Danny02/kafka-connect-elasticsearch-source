@@ -245,3 +245,10 @@ in order to be serialized correctly. To disable the field name conversion set th
 * Type: string
 * Importance: medium
 * Default: avro
+
+``schemaless``
+Determine if the connector should try to parse the documents and create a schema for them or just pass them through as is.
+
+* Type: boolean
+* Importance: medium
+* Default: false

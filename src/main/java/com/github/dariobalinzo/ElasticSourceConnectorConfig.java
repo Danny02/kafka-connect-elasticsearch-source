@@ -150,6 +150,10 @@ public class ElasticSourceConnectorConfig extends AbstractConfig {
     public static final String NOP_FIELDNAME_CONVERTER = "nop";
     public static final String AVRO_FIELDNAME_CONVERTER = "avro";
 
+    public static final String CONNECTOR_SCHEMA_LESS_CONFIG = "schemaless";
+    public static final String CONNECTOR_SCHEMA_LESS_DOC = "Determine if the connector should try to parse the documents and create a schema for them or just pass them through as is";
+    public static final String CONNECTOR_SCHEMA_LESS_DISPLAY = "Generate schema or not";
+
     public static final ConfigDef CONFIG_DEF = baseConfigDef();
 
     protected static ConfigDef baseConfigDef() {
@@ -411,6 +415,16 @@ public class ElasticSourceConnectorConfig extends AbstractConfig {
                 ++orderInGroup,
                 Width.MEDIUM,
                 CONNECTOR_FIELDNAME_CONVERTER_DISPLAY
+        ).define(
+                CONNECTOR_SCHEMA_LESS_CONFIG,
+                Type.BOOLEAN,
+                false,
+                Importance.MEDIUM,
+                CONNECTOR_SCHEMA_LESS_DOC,
+                CONNECTOR_GROUP,
+                ++orderInGroup,
+                Width.MEDIUM,
+                CONNECTOR_SCHEMA_LESS_DISPLAY
         );
     }
 
