@@ -1,108 +1,2866 @@
 {
-  "equipments": [
-    {
-      "prices": {
-        "listPrice": {
-          "netPrice": {
-            "amount": 420.17,
-            "currency": "EUR"
+  "searchableProperties": {
+    "documentId": "8234398_2023-02-06",
+    "availabilityState": "AVAILABLE",
+    "brand": "BMW",
+    "buNoDealerCode": "45475",
+    "distributionPartnerId": "21675",
+    "dealerClass": "EH",
+    "dealerId": "45475",
+    "dealerGroupId": "21675",
+    "centralStock": false,
+    "options": "S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6",
+    "optionsNamed": [
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S01A1",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Country-specific engine management"
           },
-          "grossPrice": {
-            "amount": 500,
-            "currency": "EUR"
+          {
+            "locale": "en_TH",
+            "text": "Country-specific engine management"
           },
-          "updatedAt": "2023-05-17T04:08:18.046399"
+          {
+            "locale": "default_TH",
+            "text": "Country-specific engine management"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S01MA",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "M sports exhaust system"
+          },
+          {
+            "locale": "th_TH",
+            "text": "M sports exhaust system"
+          },
+          {
+            "locale": "en_TH",
+            "text": "M sports exhaust system"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S01PA",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT"
+          },
+          {
+            "locale": "th_TH",
+            "text": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT"
+          },
+          {
+            "locale": "en_TH",
+            "text": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0212",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "National brake system equipment"
+          },
+          {
+            "locale": "default_TH",
+            "text": "National brake system equipment"
+          },
+          {
+            "locale": "th_TH",
+            "text": "National brake system equipment"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S02NH",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "M Sport brake"
+          },
+          {
+            "locale": "en_TH",
+            "text": "M Sport brake"
+          },
+          {
+            "locale": "default_TH",
+            "text": "M Sport brake"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S02VR",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Adaptive 2-axle air suspension"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Adaptive 2-axle air suspension"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Adaptive 2-axle air suspension"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0300",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Emergency spare wheel"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Emergency spare wheel"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Emergency spare wheel"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0322",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Comfort access system"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Comfort access system"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Comfort access system"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0323",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Soft-Close function for doors"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Soft-Close function for doors"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Soft-Close function for doors"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0337",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "M Sport package"
+          },
+          {
+            "locale": "en_TH",
+            "text": "M Sport package"
+          },
+          {
+            "locale": "default_TH",
+            "text": "M Sport package"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S03AW",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Spray jets without heating"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Spray jets without heating"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Spray jets without heating"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S03DN",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "BMW kidney 'Iconic Glow'"
+          },
+          {
+            "locale": "en_TH",
+            "text": "BMW kidney 'Iconic Glow'"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW kidney 'Iconic Glow'"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S03MQ",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "BMW M 50 Years Emblem"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW M 50 Years Emblem"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW M 50 Years Emblem"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0407",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Panorama glass roof Sky Lounge"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Panorama glass roof Sky Lounge"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Panorama glass roof Sky Lounge"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0417",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Roller sunblind, rear side windows"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Roller sunblind, rear side windows"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Roller sunblind, rear side windows"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0418",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Luggage-compartment package"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Luggage-compartment package"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Luggage-compartment package"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0423",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Floor mats in velour"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Floor mats in velour"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Floor mats in velour"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S044A",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Cupholder, temperate"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Cupholder, temperate"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Cupholder, temperate"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0456",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Comfort seats front, electrically adjustable"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Comfort seats front, electrically adjustable"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Comfort seats front, electrically adjustable"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04A2",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Glass application 'CraftedClarity' for interior elements"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Glass application 'CraftedClarity' for interior elements"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Glass application 'CraftedClarity' for interior elements"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04FL",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Travel & Comfort System"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Travel & Comfort System"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Travel & Comfort System"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04GQ",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "M seat belts"
+          },
+          {
+            "locale": "default_TH",
+            "text": "M seat belts"
+          },
+          {
+            "locale": "th_TH",
+            "text": "M seat belts"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04M5",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "BMW Individual instrument panel finished in leather"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW Individual instrument panel finished in leather"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Individual instrument panel finished in leather"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04MC",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Interior trim finishers Carbon Fibre"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Interior trim finishers Carbon Fibre"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Interior trim finishers Carbon Fibre"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04NB",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Automatic air conditioning with 4-zone control"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Automatic air conditioning with 4-zone control"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Automatic air conditioning with 4-zone control"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04T8",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Expanded exterior mirror package"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Expanded exterior mirror package"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Expanded exterior mirror package"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S04UR",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Ambient light"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Ambient light"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Ambient light"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0548",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Speedometer with kilometer reading"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Speedometer with kilometer reading"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Speedometer with kilometer reading"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05AC",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "High-beam assistant"
+          },
+          {
+            "locale": "default_TH",
+            "text": "High-beam assistant"
+          },
+          {
+            "locale": "th_TH",
+            "text": "High-beam assistant"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05AL",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Active Protection"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Active Protection"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Active Protection"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05AS",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Driving Assistant"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Driving Assistant"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Driving Assistant"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05AZ",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "BMW Laserlight"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW Laserlight"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Laserlight"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05DF",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Active cruise control with Stop&Go function"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Active cruise control with Stop&Go function"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Active cruise control with Stop&Go function"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S05DN",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Parking Assistant Plus"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Parking Assistant Plus"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Parking Assistant Plus"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0610",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "BMW Head-Up Display"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Head-Up Display"
+          },
+          {
+            "locale": "en_TH",
+            "text": "BMW Head-Up Display"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0688",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Harman Kardon surround sound system"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Harman Kardon surround sound system"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Harman Kardon surround sound system"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0699",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Area Code 3 for DVD"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Area Code 3 for DVD"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Area Code 3 for DVD"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06AC",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Intelligent Emergency Call"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Intelligent Emergency Call"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Intelligent Emergency Call"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06AE",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Teleservices"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Teleservices"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Teleservices"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06AK",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "ConnectedDrive Services"
+          },
+          {
+            "locale": "default_TH",
+            "text": "ConnectedDrive Services"
+          },
+          {
+            "locale": "th_TH",
+            "text": "ConnectedDrive Services"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06C4",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Digital Professional I"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Digital Professional I"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Digital Professional I"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06CP",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Preparation for Apple CarPlay"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Preparation for Apple CarPlay"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Preparation for Apple CarPlay"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06NV",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Country-specific telephony with wireless charging"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Country-specific telephony with wireless charging"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Country-specific telephony with wireless charging"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06U3",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "BMW Live Cockpit Professional"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW Live Cockpit Professional"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Live Cockpit Professional"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S06U8",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "BMW Gesture Control"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Gesture Control"
+          },
+          {
+            "locale": "en_TH",
+            "text": "BMW Gesture Control"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0710",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "M leather steering wheel"
+          },
+          {
+            "locale": "th_TH",
+            "text": "M leather steering wheel"
+          },
+          {
+            "locale": "en_TH",
+            "text": "M leather steering wheel"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0715",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "M Aerodynamics package"
+          },
+          {
+            "locale": "en_TH",
+            "text": "M Aerodynamics package"
+          },
+          {
+            "locale": "default_TH",
+            "text": "M Aerodynamics package"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0760",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "BMW Individual high-gloss Shadow Line"
+          },
+          {
+            "locale": "en_TH",
+            "text": "BMW Individual high-gloss Shadow Line"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW Individual high-gloss Shadow Line"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0775",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "BMW Individual headliner anthracite"
+          },
+          {
+            "locale": "default_TH",
+            "text": "BMW Individual headliner anthracite"
+          },
+          {
+            "locale": "th_TH",
+            "text": "BMW Individual headliner anthracite"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0825",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Radio control Oceania"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Radio control Oceania"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Radio control Oceania"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S088A",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Thai / on-board Documentation"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Thai / on-board Documentation"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Thai / on-board Documentation"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S08A0",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Language version Thai"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Language version Thai"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Language version Thai"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S08KM",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Oil service interval - 12 months/12,000 km"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Oil service interval - 12 months/12,000 km"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Oil service interval - 12 months/12,000 km"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S08SX",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Provider control, telematics"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Provider control, telematics"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Provider control, telematics"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S08TD",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Decodierung Speed Limited Info"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Decodierung Speed Limited Info"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Decodierung Speed Limited Info"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S08WP",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "STEUERUNG F"
+          },
+          {
+            "locale": "th_TH",
+            "text": "STEUERUNG F"
+          },
+          {
+            "locale": "en_TH",
+            "text": "STEUERUNG F"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0925",
+        "translations": [
+          {
+            "locale": "default_TH",
+            "text": "Shipping protection package"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Shipping protection package"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Shipping protection package"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S0992",
+        "translations": [
+          {
+            "locale": "th_TH",
+            "text": "Control of number-plate attachment"
+          },
+          {
+            "locale": "en_TH",
+            "text": "Control of number-plate attachment"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Control of number-plate attachment"
+          }
+        ]
+      },
+      {
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION",
+        "pcasoCode": "S09C6",
+        "translations": [
+          {
+            "locale": "en_TH",
+            "text": "Assembly Thailand"
+          },
+          {
+            "locale": "default_TH",
+            "text": "Assembly Thailand"
+          },
+          {
+            "locale": "th_TH",
+            "text": "Assembly Thailand"
+          }
+        ]
+      }
+    ],
+    "equipments": [
+      {
+        "pcasoCode": "P0C3D",
+        "aggregatedStandard": false,
+        "equipmentType": "COLOR"
+      },
+      {
+        "pcasoCode": "FVAHF",
+        "aggregatedStandard": false,
+        "equipmentType": "UPHOLSTERY"
+      },
+      {
+        "pcasoCode": "S01A1",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S01MA",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S01PA",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0212",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S02NH",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S02VR",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0300",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0322",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0323",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0337",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S03AW",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S03DN",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S03MQ",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0407",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0417",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0418",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0423",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S044A",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0456",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04A2",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04FL",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04GQ",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04M5",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04MC",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04NB",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04T8",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S04UR",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0548",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05AC",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05AL",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05AS",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05AZ",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05DF",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S05DN",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0610",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0688",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0699",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06AC",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06AE",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06AK",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06C4",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06CP",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06NV",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06U3",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S06U8",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0710",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0715",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0760",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0775",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0825",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S088A",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S08A0",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S08KM",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S08SX",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S08TD",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S08WP",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0925",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S0992",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "S09C6",
+        "aggregatedStandard": false,
+        "equipmentType": "OPTION"
+      },
+      {
+        "pcasoCode": "ZFV",
+        "aggregatedStandard": false
+      }
+    ],
+    "validityOptionNames": [
+      "ALL_OPTIONS_HAVE_TRANSLATIONS",
+      "ALL_OPTIONS_HAVE_ALL_TRANSLATIONS"
+    ],
+    "updatedAt": "2023-06-22T12:41:59",
+    "enrichedAt": "2023-06-22T12:41:58.209372",
+    "processType": "POD_WIT",
+    "priceUpdatedAt": "2023-06-22T12:41:58.209307",
+    "configurationId": "CY64ZFV:FVAHF,P0C3D,S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6,ZFV",
+    "configurationIdExtended": "CY64ZFV:FVAHF,P0C3D,S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6,ZFV",
+    "colorNamed": {
+      "aggregatedStandard": false,
+      "equipmentType": "COLOR",
+      "pcasoCode": "P0C3D",
+      "translations": [
+        {
+          "locale": "en_TH",
+          "text": "Manhattan metallic"
         },
-        "salesPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:17.844466"
+        {
+          "locale": "default_TH",
+          "text": "Manhattan metallic"
+        },
+        {
+          "locale": "th_TH",
+          "text": "Manhattan metallic"
         }
+      ]
+    },
+    "labColorCode": {
+      "l": 40.415,
+      "a": -0.464,
+      "b": 8.159
+    },
+    "colorCluster": "GRAY_DARK",
+    "colorClusterRough": "GRAY",
+    "labColorCodeList": [
+      {
+        "l": 40.415,
+        "a": -0.464,
+        "b": 8.159
+      }
+    ],
+    "colorClusters": [
+      "GRAY_DARK"
+    ],
+    "colorRoughClusters": [
+      "GRAY"
+    ],
+    "upholsteryColorCluster": "COGNAC",
+    "upholsteryNamed": {
+      "aggregatedStandard": false,
+      "equipmentType": "UPHOLSTERY",
+      "pcasoCode": "FVAHF",
+      "translations": [
+        {
+          "locale": "th_TH",
+          "text": "BMW Individual extended leather trim 'Merino' Coffee (BK)"
+        },
+        {
+          "locale": "en_TH",
+          "text": "BMW Individual extended leather trim 'Merino' Coffee (BK)"
+        },
+        {
+          "locale": "default_TH",
+          "text": "BMW Individual extended leather trim 'Merino' Coffee (BK)"
+        }
+      ]
+    },
+    "modelCode": "CY64ZFV",
+    "agModelCode": "CY64",
+    "translatedModelDescription": [
+      {
+        "locale": "en_TH",
+        "text": "X6 XDRIVE40I"
+      },
+      {
+        "locale": "default_TH",
+        "text": "X6 XDRIVE40I"
+      },
+      {
+        "locale": "th_TH",
+        "text": "X6 XDRIVE40I"
+      }
+    ],
+    "price": {
+      "amount": 5739000,
+      "currency": "THB"
+    },
+    "productType": "CAR",
+    "unpreferredStock": false,
+    "vehicleUsageState": "NEW",
+    "vin17": "MMFCY64090Y136320",
+    "countryCode": "TH",
+    "processingType": "OTHER",
+    "ivsProcessingType": "ST",
+    "ivsxStatus": 292,
+    "usedCarData": {
+      "containsImages": false
+    },
+    "productionDate": "2023-04-18",
+    "orderNumber": "8234398",
+    "orderType": "0",
+    "wholesalerSearchCodes": {},
+    "paintColorCount": 1,
+    "wholesaleData": {
+      "orderEntryDate": "2023-02-06"
+    },
+    "ckdFlag": true,
+    "vin7": "Y136320",
+    "hasOfferIDs": false,
+    "hasOfferPrices": false,
+    "failedToEnrich": [
+      "UCP_MODEL",
+      "UCP_OPTIONS_PHRASE",
+      "UCP_OPTIONS",
+      "UCP_OPTIONS_MARKETING_TEXTS",
+      "UCP_OTD_2_0",
+      "UCP_CLASSIFIED_CONFIGURATION",
+      "SVMD_EMISSION",
+      "EMISSION_NEDC",
+      "EMISSION_WLTP",
+      "UCP_PRICE"
+    ],
+    "enrichedBy": [
+      "CDSTORE_CONTENT_SERVICES",
+      "COSY_DETECTED_COLOR",
+      "COSY_DETECTED_UPHOLSTERY_COLOR",
+      "CDSTORE_BOOKED_AND_BOOKABLE_SERVICES",
+      "HST_DEALER_INFORMATION",
+      "UCP_AGGREGATED_PHRASES"
+    ],
+    "vehicleSalesProcessState": {
+      "type": "AVAILABLE"
+    },
+    "netListPrice": 5363551.4,
+    "grossListPrice": 5739000,
+    "sowu": {
+      "isSowuPaint": false
+    },
+    "fodInformation": {
+      "fodFlag": true,
+      "masterOffercodes": [
+        {
+          "masterOffercode": "RES_Offer",
+          "fodOptionCode": "SA534",
+          "optionCode": "SA01CR",
+          "booked": false,
+          "bookable": true,
+          "fodTranslatedOptions": [
+            {
+              "locale": "th_TH",
+              "text": "BMW Drive Recorder"
+            },
+            {
+              "locale": "en_TH",
+              "text": "Remote Engine Start"
+            },
+            {
+              "locale": "en_TH",
+              "text": "BMW Drive Recorder"
+            },
+            {
+              "locale": "th_TH",
+              "text": "Remote Engine Start"
+            }
+          ]
+        },
+        {
+          "masterOffercode": "Base_Drive_Recorder",
+          "fodOptionCode": "SA5DN",
+          "optionCode": "SA6DR",
+          "booked": false,
+          "bookable": true,
+          "fodTranslatedOptions": [
+            {
+              "locale": "th_TH",
+              "text": "BMW Drive Recorder"
+            },
+            {
+              "locale": "en_TH",
+              "text": "Remote Engine Start"
+            },
+            {
+              "locale": "en_TH",
+              "text": "BMW Drive Recorder"
+            },
+            {
+              "locale": "th_TH",
+              "text": "Remote Engine Start"
+            }
+          ]
+        }
+      ]
+    },
+    "isOfferingTemplate": false,
+    "isDirectSales": false,
+    "trimDetails": {
+      "pcasoCode": ""
+    },
+    "isSpotlight": false,
+    "hiddenStock": true,
+    "visibleForDealer": true
+  },
+  "document": {
+    "documentId": "8234398_2023-02-06",
+    "vin7": "Y136320",
+    "vin10": "MMFCY64090",
+    "vin17": "MMFCY64090Y136320",
+    "countryCode": "TH",
+    "mainLocale": "th_TH",
+    "configurationId": "CY64ZFV:FVAHF,P0C3D,S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6,ZFV",
+    "model": {
+      "translatedModelDescription": {
+        "en_TH": "X6 XDRIVE40I",
+        "default_TH": "X6 XDRIVE40I",
+        "th_TH": "X6 XDRIVE40I"
+      },
+      "agModelCode": "CY64",
+      "vgModelCode": "CY64ZFV"
+    },
+    "productType": "CAR",
+    "orderNumber": "8234398",
+    "orderType": "0",
+    "brand": "BMW",
+    "brandRange": "BMW_CAR",
+    "availabilityState": "AVAILABLE",
+    "vehicleState": "NEW",
+    "technicalData": {
+      "wheels": {}
+    },
+    "totalPrices": {
+      "listPrice": {
+        "netPrice": {
+          "amount": 5363551.4,
+          "currency": "THB"
+        },
+        "grossPrice": {
+          "amount": 5739000,
+          "currency": "THB"
+        },
+        "updatedAt": "2023-06-22T12:41:58.209307"
       }
     },
-    {
-      "prices": {
-        "listPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:18.046401"
+    "listPriceCurrency": "THB",
+    "processingType": "OTHER",
+    "ivsProcessingType": "ST",
+    "productionDate": "2023-04-18",
+    "modelName": "X6 XDRIVE40I",
+    "buNoDealerCode": "45475",
+    "dealerClass": "EH",
+    "dealerId": "45475",
+    "dealerGroupId": "21675",
+    "distributionPartnerId": "21675",
+    "ivsxStatus": 292,
+    "taxes": {
+      "totalTaxes": 375448.6
+    },
+    "equipments": [
+      {
+        "pcasoCode": "P0C3D",
+        "translatedNames": {
+          "en_TH": "Manhattan metallic",
+          "default_TH": "Manhattan metallic",
+          "th_TH": "Manhattan metallic"
         },
-        "salesPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:17.844525"
-        }
+        "equipmentType": "COLOR",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": true
+      },
+      {
+        "pcasoCode": "FVAHF",
+        "translatedNames": {
+          "en_TH": "BMW Individual extended leather trim 'Merino' Coffee (BK)",
+          "default_TH": "BMW Individual extended leather trim 'Merino' Coffee (BK)",
+          "th_TH": "BMW Individual extended leather trim 'Merino' Coffee (BK)"
+        },
+        "equipmentType": "UPHOLSTERY",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": true
+      },
+      {
+        "pcasoCode": "S01A1",
+        "translatedNames": {
+          "en_TH": "Country-specific engine management",
+          "default_TH": "Country-specific engine management",
+          "th_TH": "Country-specific engine management"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S01MA",
+        "translatedNames": {
+          "en_TH": "M sports exhaust system",
+          "default_TH": "M sports exhaust system",
+          "th_TH": "M sports exhaust system"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S01PA",
+        "translatedNames": {
+          "en_TH": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT",
+          "default_TH": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT",
+          "th_TH": "22\" M Lt/Aly wheels Double-spoke 742 M Bicolour / MT"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0212",
+        "translatedNames": {
+          "en_TH": "National brake system equipment",
+          "default_TH": "National brake system equipment",
+          "th_TH": "National brake system equipment"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S02NH",
+        "translatedNames": {
+          "en_TH": "M Sport brake",
+          "default_TH": "M Sport brake",
+          "th_TH": "M Sport brake"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S02VR",
+        "translatedNames": {
+          "en_TH": "Adaptive 2-axle air suspension",
+          "default_TH": "Adaptive 2-axle air suspension",
+          "th_TH": "Adaptive 2-axle air suspension"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0300",
+        "translatedNames": {
+          "en_TH": "Emergency spare wheel",
+          "default_TH": "Emergency spare wheel",
+          "th_TH": "Emergency spare wheel"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0322",
+        "translatedNames": {
+          "en_TH": "Comfort access system",
+          "default_TH": "Comfort access system",
+          "th_TH": "Comfort access system"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0323",
+        "translatedNames": {
+          "en_TH": "Soft-Close function for doors",
+          "default_TH": "Soft-Close function for doors",
+          "th_TH": "Soft-Close function for doors"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0337",
+        "translatedNames": {
+          "en_TH": "M Sport package",
+          "default_TH": "M Sport package",
+          "th_TH": "M Sport package"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S03AW",
+        "translatedNames": {
+          "en_TH": "Spray jets without heating",
+          "default_TH": "Spray jets without heating",
+          "th_TH": "Spray jets without heating"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S03DN",
+        "translatedNames": {
+          "en_TH": "BMW kidney 'Iconic Glow'",
+          "default_TH": "BMW kidney 'Iconic Glow'",
+          "th_TH": "BMW kidney 'Iconic Glow'"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S03MQ",
+        "translatedNames": {
+          "en_TH": "BMW M 50 Years Emblem",
+          "default_TH": "BMW M 50 Years Emblem",
+          "th_TH": "BMW M 50 Years Emblem"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0407",
+        "translatedNames": {
+          "en_TH": "Panorama glass roof Sky Lounge",
+          "default_TH": "Panorama glass roof Sky Lounge",
+          "th_TH": "Panorama glass roof Sky Lounge"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0417",
+        "translatedNames": {
+          "en_TH": "Roller sunblind, rear side windows",
+          "default_TH": "Roller sunblind, rear side windows",
+          "th_TH": "Roller sunblind, rear side windows"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0418",
+        "translatedNames": {
+          "en_TH": "Luggage-compartment package",
+          "default_TH": "Luggage-compartment package",
+          "th_TH": "Luggage-compartment package"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0423",
+        "translatedNames": {
+          "en_TH": "Floor mats in velour",
+          "default_TH": "Floor mats in velour",
+          "th_TH": "Floor mats in velour"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S044A",
+        "translatedNames": {
+          "en_TH": "Cupholder, temperate",
+          "default_TH": "Cupholder, temperate",
+          "th_TH": "Cupholder, temperate"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0456",
+        "translatedNames": {
+          "en_TH": "Comfort seats front, electrically adjustable",
+          "default_TH": "Comfort seats front, electrically adjustable",
+          "th_TH": "Comfort seats front, electrically adjustable"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04A2",
+        "translatedNames": {
+          "en_TH": "Glass application 'CraftedClarity' for interior elements",
+          "default_TH": "Glass application 'CraftedClarity' for interior elements",
+          "th_TH": "Glass application 'CraftedClarity' for interior elements"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04FL",
+        "translatedNames": {
+          "en_TH": "Travel & Comfort System",
+          "default_TH": "Travel & Comfort System",
+          "th_TH": "Travel & Comfort System"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04GQ",
+        "translatedNames": {
+          "en_TH": "M seat belts",
+          "default_TH": "M seat belts",
+          "th_TH": "M seat belts"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04M5",
+        "translatedNames": {
+          "en_TH": "BMW Individual instrument panel finished in leather",
+          "default_TH": "BMW Individual instrument panel finished in leather",
+          "th_TH": "BMW Individual instrument panel finished in leather"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04MC",
+        "translatedNames": {
+          "en_TH": "Interior trim finishers Carbon Fibre",
+          "default_TH": "Interior trim finishers Carbon Fibre",
+          "th_TH": "Interior trim finishers Carbon Fibre"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04NB",
+        "translatedNames": {
+          "en_TH": "Automatic air conditioning with 4-zone control",
+          "default_TH": "Automatic air conditioning with 4-zone control",
+          "th_TH": "Automatic air conditioning with 4-zone control"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04T8",
+        "translatedNames": {
+          "en_TH": "Expanded exterior mirror package",
+          "default_TH": "Expanded exterior mirror package",
+          "th_TH": "Expanded exterior mirror package"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S04UR",
+        "translatedNames": {
+          "en_TH": "Ambient light",
+          "default_TH": "Ambient light",
+          "th_TH": "Ambient light"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0548",
+        "translatedNames": {
+          "en_TH": "Speedometer with kilometer reading",
+          "default_TH": "Speedometer with kilometer reading",
+          "th_TH": "Speedometer with kilometer reading"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05AC",
+        "translatedNames": {
+          "en_TH": "High-beam assistant",
+          "default_TH": "High-beam assistant",
+          "th_TH": "High-beam assistant"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05AL",
+        "translatedNames": {
+          "en_TH": "Active Protection",
+          "default_TH": "Active Protection",
+          "th_TH": "Active Protection"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05AS",
+        "translatedNames": {
+          "en_TH": "Driving Assistant",
+          "default_TH": "Driving Assistant",
+          "th_TH": "Driving Assistant"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05AZ",
+        "translatedNames": {
+          "en_TH": "BMW Laserlight",
+          "default_TH": "BMW Laserlight",
+          "th_TH": "BMW Laserlight"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05DF",
+        "translatedNames": {
+          "en_TH": "Active cruise control with Stop&Go function",
+          "default_TH": "Active cruise control with Stop&Go function",
+          "th_TH": "Active cruise control with Stop&Go function"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S05DN",
+        "translatedNames": {
+          "en_TH": "Parking Assistant Plus",
+          "default_TH": "Parking Assistant Plus",
+          "th_TH": "Parking Assistant Plus"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0610",
+        "translatedNames": {
+          "en_TH": "BMW Head-Up Display",
+          "default_TH": "BMW Head-Up Display",
+          "th_TH": "BMW Head-Up Display"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0688",
+        "translatedNames": {
+          "en_TH": "Harman Kardon surround sound system",
+          "default_TH": "Harman Kardon surround sound system",
+          "th_TH": "Harman Kardon surround sound system"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0699",
+        "translatedNames": {
+          "en_TH": "Area Code 3 for DVD",
+          "default_TH": "Area Code 3 for DVD",
+          "th_TH": "Area Code 3 for DVD"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06AC",
+        "translatedNames": {
+          "en_TH": "Intelligent Emergency Call",
+          "default_TH": "Intelligent Emergency Call",
+          "th_TH": "Intelligent Emergency Call"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06AE",
+        "translatedNames": {
+          "en_TH": "Teleservices",
+          "default_TH": "Teleservices",
+          "th_TH": "Teleservices"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06AK",
+        "translatedNames": {
+          "en_TH": "ConnectedDrive Services",
+          "default_TH": "ConnectedDrive Services",
+          "th_TH": "ConnectedDrive Services"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06C4",
+        "translatedNames": {
+          "en_TH": "Digital Professional I",
+          "default_TH": "Digital Professional I",
+          "th_TH": "Digital Professional I"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06CP",
+        "translatedNames": {
+          "en_TH": "Preparation for Apple CarPlay",
+          "default_TH": "Preparation for Apple CarPlay",
+          "th_TH": "Preparation for Apple CarPlay"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06NV",
+        "translatedNames": {
+          "en_TH": "Country-specific telephony with wireless charging",
+          "default_TH": "Country-specific telephony with wireless charging",
+          "th_TH": "Country-specific telephony with wireless charging"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06U3",
+        "translatedNames": {
+          "en_TH": "BMW Live Cockpit Professional",
+          "default_TH": "BMW Live Cockpit Professional",
+          "th_TH": "BMW Live Cockpit Professional"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S06U8",
+        "translatedNames": {
+          "en_TH": "BMW Gesture Control",
+          "default_TH": "BMW Gesture Control",
+          "th_TH": "BMW Gesture Control"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0710",
+        "translatedNames": {
+          "en_TH": "M leather steering wheel",
+          "default_TH": "M leather steering wheel",
+          "th_TH": "M leather steering wheel"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0715",
+        "translatedNames": {
+          "en_TH": "M Aerodynamics package",
+          "default_TH": "M Aerodynamics package",
+          "th_TH": "M Aerodynamics package"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0760",
+        "translatedNames": {
+          "en_TH": "BMW Individual high-gloss Shadow Line",
+          "default_TH": "BMW Individual high-gloss Shadow Line",
+          "th_TH": "BMW Individual high-gloss Shadow Line"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0775",
+        "translatedNames": {
+          "en_TH": "BMW Individual headliner anthracite",
+          "default_TH": "BMW Individual headliner anthracite",
+          "th_TH": "BMW Individual headliner anthracite"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0825",
+        "translatedNames": {
+          "en_TH": "Radio control Oceania",
+          "default_TH": "Radio control Oceania",
+          "th_TH": "Radio control Oceania"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S088A",
+        "translatedNames": {
+          "en_TH": "Thai / on-board Documentation",
+          "default_TH": "Thai / on-board Documentation",
+          "th_TH": "Thai / on-board Documentation"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S08A0",
+        "translatedNames": {
+          "en_TH": "Language version Thai",
+          "default_TH": "Language version Thai",
+          "th_TH": "Language version Thai"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S08KM",
+        "translatedNames": {
+          "en_TH": "Oil service interval - 12 months/12,000 km",
+          "default_TH": "Oil service interval - 12 months/12,000 km",
+          "th_TH": "Oil service interval - 12 months/12,000 km"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S08SX",
+        "translatedNames": {
+          "en_TH": "Provider control, telematics",
+          "default_TH": "Provider control, telematics",
+          "th_TH": "Provider control, telematics"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S08TD",
+        "translatedNames": {
+          "en_TH": "Decodierung Speed Limited Info",
+          "default_TH": "Decodierung Speed Limited Info",
+          "th_TH": "Decodierung Speed Limited Info"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S08WP",
+        "translatedNames": {
+          "en_TH": "STEUERUNG F",
+          "default_TH": "STEUERUNG F",
+          "th_TH": "STEUERUNG F"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0925",
+        "translatedNames": {
+          "en_TH": "Shipping protection package",
+          "default_TH": "Shipping protection package",
+          "th_TH": "Shipping protection package"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S0992",
+        "translatedNames": {
+          "en_TH": "Control of number-plate attachment",
+          "default_TH": "Control of number-plate attachment",
+          "th_TH": "Control of number-plate attachment"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "S09C6",
+        "translatedNames": {
+          "en_TH": "Assembly Thailand",
+          "default_TH": "Assembly Thailand",
+          "th_TH": "Assembly Thailand"
+        },
+        "equipmentType": "OPTION",
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      },
+      {
+        "pcasoCode": "ZFV",
+        "translatedNames": {
+          "en_TH": "X6 xDrive40i M Sport PM1222",
+          "default_TH": "X6 xDrive40i M Sport PM1222",
+          "th_TH": "X6 xDrive40i M Sport PM1222"
+        },
+        "perfectFit": false,
+        "alternative": false,
+        "retail": true,
+        "paintOrFabric": false
+      }
+    ],
+    "enrichedBy": [
+      "CDSTORE_CONTENT_SERVICES",
+      "COSY_DETECTED_COLOR",
+      "COSY_DETECTED_UPHOLSTERY_COLOR",
+      "CDSTORE_BOOKED_AND_BOOKABLE_SERVICES",
+      "HST_DEALER_INFORMATION",
+      "UCP_AGGREGATED_PHRASES"
+    ],
+    "failedToEnrich": [
+      {
+        "system": "UCP_MODEL",
+        "configuration": {
+          "agModelCode": "CY64",
+          "vgModelCode": "CY64ZFV"
+        },
+        "message": "vg- and ag-model code not found in Ucp response"
+      },
+      {
+        "system": "UCP_OPTIONS_PHRASE",
+        "configuration": {
+          "country": "th",
+          "cluster": "default",
+          "effectDate": "2023-04-18",
+          "application": "connext",
+          "model": "CY64ZFV",
+          "language": "en",
+          "source": "vdml",
+          "phraseKeys": "longDescription",
+          "brand": "bmwCar"
+        },
+        "message": "Bad request caught with status 404 - response body: {\"errorCode\":\"LOC_B_1013\",\"errorMessage\":\"No result found in database for (request) parameter(s) modelCode='CY64ZFV' and source='vdml' and brand='bmwCar' and country='th' and language=en and policy='none' and cluster='default'.\",\"traceId\":\"bd762792-91c5-4afe-9986-d8782dda9056\"}"
+      },
+      {
+        "system": "UCP_OPTIONS",
+        "configuration": {
+          "country": "th",
+          "cluster": "default",
+          "effectDate": "2023-06-22",
+          "application": "connext",
+          "modelCode": "CY64ZFV",
+          "language": "th",
+          "source": "vdml",
+          "brand": "bmwCar",
+          "fallbackDate": "2023-06-22",
+          "orderDate": "2023-02-06"
+        },
+        "message": "Bad request caught with status 404 - response body: {\"errorCode\":\"LOC_S_2003\",\"errorMessage\":\"Error while communicating with vehicle service. 404 Not Found - {\\\"errorCode\\\":\\\"VHS_B_1014\\\",\\\"errorMessage\\\":\\\"No model with modelCode exists in the datasource.\\\",\\\"traceId\\\":\\\"69306c8c-5e05-4d7e-a03c-633d63ba3234\\\"}\",\"traceId\":\"69306c8c-5e05-4d7e-a03c-633d63ba3234\"}"
+      },
+      {
+        "system": "UCP_OPTIONS_MARKETING_TEXTS",
+        "message": "skipped marketing texts enrichment due to missing modelRange in UCP models response"
+      },
+      {
+        "system": "UCP_OTD_2_0",
+        "configuration": {
+          "includedOptions": "[FVAHF, P0C3D, S01A1, S01MA, S01PA, S0212, S02NH, S02VR, S0300, S0322, S0323, S0337, S03AW, S03DN, S03MQ, S0407, S0417, S0418, S0423, S044A, S0456, S04A2, S04FL, S04GQ, S04M5, S04MC, S04NB, S04T8, S04UR, S0548, S05AC, S05AL, S05AS, S05AZ, S05DF, S05DN, S0610, S0688, S0699, S06AC, S06AE, S06AK, S06C4, S06CP, S06NV, S06U3, S06U8, S0710, S0715, S0760, S0775, S0825, S088A, S08A0, S08KM, S08SX, S08TD, S08WP, S0925, S0992, S09C6, ZFV]",
+          "countryGroup": "row",
+          "effectDate": "2023-04-18",
+          "agModelCode": "CY64",
+          "requiredFields": "A_BODENF,A_BREITE,A_BREITE_GES,A_EINHOEHE,A_GEPR_211_3,A_GEPR_V210,A_GEPR_V211,A_GEPR_V214,A_HOEHE,A_LAENGE,A_RADST,A_SAE_LUG,A_TANKV,A_UEBERH_H,A_UEBERH_V,A_WENDEK,BAT_REESS_ENERINH_BRUT,BAT_REESS_ENERINH_NET,BAT_REESS_KAP_BRUT,B_AHLAST_UB,B_ANHAEN_12_KAT2,B_ANHEAN_8_KAT2,B_LEER_O_FA_M_SA,B_LGEW_DIN,B_LGEW_EU,B_STUETZL,B_ZGG,B_ZULADUNG,C_BOOST_LSTG_ANT,C_BOOST_LSTG_ANT_PS,C_DREHM,C_DREHM_DREHZ,C_DREHM_GES,C_EGRAD,C_EM1_LEISTNENN,C_EM1_LEISTPEAK,C_EM1_LEISTPPS,C_KRAFTS,C_KRAFTS_EMPF,C_LEISTP_HP_EM1,C_LEISTUNG,C_LEISTUNG_HP,C_LEISTUNG_PS,C_LEIST_DREHZAHL,C_LEIST_GES,C_LEIST_GES_30MIN,C_LEIST_GES_30MIN_PS,C_LEIST_GES_BHP,C_LEIST_GES_KOMM,C_LEIST_GES_KOMM_BHP,C_LEIST_GES_KOMM_PS,C_LEIST_GES_PS,C_N_ZYL,D_GETR_ART,D_GETR_NR,E_0_100KMH,E_ABGAS,E_CO2,E_GESREICHW_KUN,E_KV01,E_KV01_LAND,E_KV01_STADT,E_REICHWEITE_KUN,E_VMAX,E_VMAX_ELEKTR,F_RR_FELGE_H,F_RR_FELGE_V,F_RR_REIFEN_H,F_RR_REIFEN_V,GETR_ANZG,G_BAT_3ABAT,G_BAT_BRUTTO,ID_LEIST_KONST,LD_LADED_AC_1_0_100,LD_LADED_AC_2_0_100,LD_LADED_AC_3_0_100,LD_LADED_AC_4_0_100,LD_LADED_AC_5_0_100,LD_LADED_DC_1_0_80,LD_LADED_DC_1_10_80,LD_LADED_DC_2_0_80,LD_LADED_DC_2_10_80,LD_LADED_DC_3_0_80,LD_LADED_DC_3_10_80,LD_LADEL_AC,LD_LADEL_DC,LD_LADEVAR_AC_1,LD_LADEVAR_AC_2,LD_LADEVAR_AC_3,LD_LADEVAR_AC_4,LD_LADEVAR_AC_5,LD_LADEVAR_DC_1,LD_LADEVAR_DC_2,LD_LADEVAR_DC_3,LD_NACHEN_10MIN_DC_1_0,LD_NACHEN_10MIN_DC_1_10,LD_NACHEN_10MIN_DC_2_0,LD_NACHEN_10MIN_DC_2_10,LD_NACHEN_10MIN_DC_3_0,LD_NACHEN_10MIN_DC_3_10,N_SITZE,N_TUEREN,P_ELEKS_SYS_H_NENNLSTG_ECE_R85,P_ELEKS_SYS_H_NENNLSTG_ECE_R85_BHP,P_ELEKS_SYS_H_NENNLSTG_ECE_R85_PS,P_ELEKS_SYS_V_NENNLSTG_ECE_R85,P_ELEKS_SYS_V_NENNLSTG_ECE_R85_BHP,P_ELEKS_SYS_V_NENNLSTG_ECE_R85_PS,VERBRMOT_BZEIUNG"
+        },
+        "message": "Bad request caught with status 404 - response body: {\"errorCode\":\"OTD_B_1005\",\"errorMessage\":\"No preconfiguration found in database for parameters: (countryGroup: row), (agModelCode: CY64), (date: 2023-04-18), (required-otd-fields: A_BODENF,A_BREITE,A_BREITE_GES,A_EINHOEHE,A_GEPR_211_3,A_GEPR_V210,A_GEPR_V211,A_GEPR_V214,A_HOEHE,A_LAENGE,A_RADST,A_SAE_LUG,A_TANKV,A_UEBERH_H,A_UEBERH_V,A_WENDEK,BAT_REESS_ENERINH_BRUT,BAT_REESS_ENERINH_NET,BAT_REESS_KAP_BRUT,B_AHLAST_UB,B_ANHAEN_12_KAT2,B_ANHEAN_8_KAT2,B_LEER_O_FA_M_SA,B_LGEW_DIN,B_LGEW_EU,B_STUETZL,B_ZGG,B_ZULADUNG,C_BOOST_LSTG_ANT,C_BOOST_LSTG_ANT_PS,C_DREHM,C_DREHM_DREHZ,C_DREHM_GES,C_EGRAD,C_EM1_LEISTNENN,C_EM1_LEISTPEAK,C_EM1_LEISTPPS,C_KRAFTS,C_KRAFTS_EMPF,C_LEISTP_HP_EM1,C_LEISTUNG,C_LEISTUNG_HP,C_LEISTUNG_PS,C_LEIST_DREHZAHL,C_LEIST_GES,C_LEIST_GES_30MIN,C_LEIST_GES_30MIN_PS,C_LEIST_GES_BHP,C_LEIST_GES_KOMM,C_LEIST_GES_KOMM_BHP,C_LEIST_GES_KOMM_PS,C_LEIST_GES_PS,C_N_ZYL,D_GETR_ART,D_GETR_NR,E_0_100KMH,E_ABGAS,E_CO2,E_GESREICHW_KUN,E_KV01,E_KV01_LAND,E_KV01_STADT,E_REICHWEITE_KUN,E_VMAX,E_VMAX_ELEKTR,F_RR_FELGE_H,F_RR_FELGE_V,F_RR_REIFEN_H,F_RR_REIFEN_V,GETR_ANZG,G_BAT_3ABAT,G_BAT_BRUTTO,ID_LEIST_KONST,LD_LADED_AC_1_0_100,LD_LADED_AC_2_0_100,LD_LADED_AC_3_0_100,LD_LADED_AC_4_0_100,LD_LADED_AC_5_0_100,LD_LADED_DC_1_0_80,LD_LADED_DC_1_10_80,LD_LADED_DC_2_0_80,LD_LADED_DC_2_10_80,LD_LADED_DC_3_0_80,LD_LADED_DC_3_10_80,LD_LADEL_AC,LD_LADEL_DC,LD_LADEVAR_AC_1,LD_LADEVAR_AC_2,LD_LADEVAR_AC_3,LD_LADEVAR_AC_4,LD_LADEVAR_AC_5,LD_LADEVAR_DC_1,LD_LADEVAR_DC_2,LD_LADEVAR_DC_3,LD_NACHEN_10MIN_DC_1_0,LD_NACHEN_10MIN_DC_1_10,LD_NACHEN_10MIN_DC_2_0,LD_NACHEN_10MIN_DC_2_10,LD_NACHEN_10MIN_DC_3_0,LD_NACHEN_10MIN_DC_3_10,N_SITZE,N_TUEREN,P_ELEKS_SYS_H_NENNLSTG_ECE_R85,P_ELEKS_SYS_H_NENNLSTG_ECE_R85_BHP,P_ELEKS_SYS_H_NENNLSTG_ECE_R85_PS,P_ELEKS_SYS_V_NENNLSTG_ECE_R85,P_ELEKS_SYS_V_NENNLSTG_ECE_R85_BHP,P_ELEKS_SYS_V_NENNLSTG_ECE_R85_PS,VERBRMOT_BZEIUNG).\",\"traceId\":\"0fbc36b6-2c01-406a-8e73-9e72e7814d6f\"}"
+      },
+      {
+        "system": "UCP_CLASSIFIED_CONFIGURATION",
+        "configuration": {
+          "includedOptions": "FVAHF,P0C3D,S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6,ZFV",
+          "country": "th",
+          "effectDate": "2023-04-18",
+          "source": "vdml",
+          "vgModelCode": "CY64ZFV",
+          "brand": "bmwCar"
+        },
+        "message": "Bad request caught with status 404 - response body: {\"errorCode\":\"VHS_B_1014\",\"errorMessage\":\"No model with modelCode exists in the datasource.\",\"traceId\":\"f1d9f79e-68a2-4ec1-bf1a-de6062a60683\"}"
+      },
+      {
+        "system": "SVMD_EMISSION",
+        "configuration": {
+          "vin": "MMFCY64090Y136320"
+        },
+        "message": "Bad request caught with status 404 - response body: <?xml version=\"1.0\" encoding=\"UTF-8\"?><error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"domWebserviceError.xsd\"><ecode>E0001</ecode><errorText><![CDATA[unknown vin MMFCY64090Y136320]]></errorText></error>"
+      },
+      {
+        "system": "EMISSION_NEDC",
+        "configuration": {
+          "includedOptions": "FVAHF,P0C3D,S01A1,S01MA,S01PA,S0212,S02NH,S02VR,S0300,S0322,S0323,S0337,S03AW,S03DN,S03MQ,S0407,S0417,S0418,S0423,S044A,S0456,S04A2,S04FL,S04GQ,S04M5,S04MC,S04NB,S04T8,S04UR,S0548,S05AC,S05AL,S05AS,S05AZ,S05DF,S05DN,S0610,S0688,S0699,S06AC,S06AE,S06AK,S06C4,S06CP,S06NV,S06U3,S06U8,S0710,S0715,S0760,S0775,S0825,S088A,S08A0,S08KM,S08SX,S08TD,S08WP,S0925,S0992,S09C6,ZFV",
+          "country": "th",
+          "cluster": "default",
+          "validityDate": "2023-04-18",
+          "source": "vdml",
+          "vgModelCode": "CY64ZFV",
+          "region": "eec",
+          "brand": "BMW"
+        },
+        "message": "EmissionServiceClient#getNedc(String,String,String,String,String,String,String,String) failed and no fallback available."
+      },
+      {
+        "system": "EMISSION_WLTP",
+        "configuration": {
+          "country": "th",
+          "productionDate": "2023-04-18",
+          "modelCode": "CY64",
+          "proxyUser": "Vehicle_Search_MS",
+          "equipmentCodes": "[FVAHF, P0C3D, S01A1, S01MA, S01PA, S0212, S02NH, S02VR, S0300, S0322, S0323, S0337, S03AW, S03DN, S03MQ, S0407, S0417, S0418, S0423, S044A, S0456, S04A2, S04FL, S04GQ, S04M5, S04MC, S04NB, S04T8, S04UR, S0548, S05AC, S05AL, S05AS, S05AZ, S05DF, S05DN, S0610, S0688, S0699, S06AC, S06AE, S06AK, S06C4, S06CP, S06NV, S06U3, S06U8, S0710, S0715, S0760, S0775, S0825, S088A, S08A0, S08KM, S08SX, S08TD, S08WP, S0925, S0992, S09C6, ZFV]",
+          "uuid": "1"
+        },
+        "message": "EmissionServiceClient#postWltp(List) failed and no fallback available."
+      },
+      {
+        "system": "UCP_PRICE",
+        "configuration": {
+          "country": "th",
+          "requestBody": "{\"validityDates\":{\"effectDate\":\"2023-04-18\",\"taxDate\":\"2023-06-22\"},\"configuration\":{\"model\":\"CY64ZFV\",\"availableOptions\":null,\"selectedOptions\":[\"FVAHF\",\"P0C3D\",\"S01A1\",\"S01MA\",\"S01PA\",\"S0212\",\"S02NH\",\"S02VR\",\"S0300\",\"S0322\",\"S0323\",\"S0337\",\"S03AW\",\"S03DN\",\"S03MQ\",\"S0407\",\"S0417\",\"S0418\",\"S0423\",\"S044A\",\"S0456\",\"S04A2\",\"S04FL\",\"S04GQ\",\"S04M5\",\"S04MC\",\"S04NB\",\"S04T8\",\"S04UR\",\"S0548\",\"S05AC\",\"S05AL\",\"S05AS\",\"S05AZ\",\"S05DF\",\"S05DN\",\"S0610\",\"S0688\",\"S0699\",\"S06AC\",\"S06AE\",\"S06AK\",\"S06C4\",\"S06CP\",\"S06NV\",\"S06U3\",\"S06U8\",\"S0710\",\"S0715\",\"S0760\",\"S0775\",\"S0825\",\"S088A\",\"S08A0\",\"S08KM\",\"S08SX\",\"S08TD\",\"S08WP\",\"S0925\",\"S0992\",\"S09C6\",\"ZFV\"]},\"settings\":{\"ignoreInvalidOptionCodes\":true,\"priceTree\":\"DEFAULT\",\"roundingScale\":null},\"additionalParams\":{\"co2ValueParam\":null,\"equivalentAllElectricRangeParam\":null,\"equivalentAllElectricRangeCityParam\":null,\"isVolt48Variant\":{\"key\":\"isVolt48Variant\",\"value\":false},\"otdCountryGroupParam\":{\"key\":\"otdCountryGroup\",\"value\":\"row\"},\"postalCode\":null,\"region\":null,\"state\":null,\"applicationMode\":null}}",
+          "source": "vdml",
+          "brand": "bmwCar"
+        },
+        "message": "Bad request caught with status 400 - response body: {\"errorCode\":\"PRI_B_1004\",\"errorMessage\":\"Model not found for given vgModelCode='CY64ZFV'\",\"traceId\":\"a2875365-8c41-403f-b366-6d1f19c68d5b\"}"
+      }
+    ],
+    "colorInfo": {
+      "hexColorCode": "#645f52",
+      "rgbColorCode": {
+        "r": 100,
+        "g": 95,
+        "b": 82
+      },
+      "labColorCode": {
+        "l": 40.415,
+        "a": -0.464,
+        "b": 8.159
+      },
+      "cluster": "GRAY_DARK",
+      "colorClusterRough": "GRAY"
+    },
+    "colorInfoList": [
+      {
+        "hexColorCode": "#645f52",
+        "rgbColorCode": {
+          "r": 100,
+          "g": 95,
+          "b": 82
+        },
+        "labColorCode": {
+          "l": 40.415,
+          "a": -0.464,
+          "b": 8.159
+        },
+        "cluster": "GRAY_DARK",
+        "colorClusterRough": "GRAY"
+      }
+    ],
+    "upholsteryColorInfo": {
+      "hexColorCode": "#5f4537",
+      "rgbColorCode": {
+        "r": 95,
+        "g": 69,
+        "b": 55
+      },
+      "labColorCode": {
+        "l": 31.727,
+        "a": 9.091,
+        "b": 12.826
+      },
+      "cluster": "COGNAC"
+    },
+    "vehicleSalesProcessState": {
+      "type": "AVAILABLE",
+      "reason": "Defaulted from availability state"
+    },
+    "usedCarData": {},
+    "wholesalerSearchCodes": {},
+    "registrationData": {},
+    "distributionData": {},
+    "wholesaleData": {
+      "orderEntryDate": "2023-02-06"
+    },
+    "typeApprovalNumber": null,
+    "paintColorCount": 1,
+    "processType": "POD_WIT",
+    "ckdFlag": true,
+    "enrichedAt": "2023-06-22T12:41:58.209372",
+    "updatedAt": "2023-06-22T12:41:59",
+    "dealerGroupBuNos": [
+      "39620",
+      "45475",
+      "21675",
+      "25208",
+      "39619"
+    ],
+    "kafkaMetadata": {
+      "offset": 15,
+      "topic": "WIT__TH",
+      "partition": 5,
+      "updatedAt": "2023-06-22T12:41:58.208262"
+    },
+    "kafkaMetadataByTopic": {
+      "WIT__TH": {
+        "offset": 15,
+        "topic": "WIT__TH",
+        "partition": 5,
+        "updatedAt": "2023-06-22T12:41:58.208262"
       }
     },
-    {
-      "prices": {
-        "listPrice": {
-          "netPrice": {
-            "amount": 3403.36,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 4050,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:18.0464"
-        },
-        "salesPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:17.844519"
-        }
-      }
+    "plantType": "CKD",
+    "vehicleLocationText": "Barcelona Motor Co., Ltd.",
+    "locationOutletAddress": {
+      "usageTypeCode": "B1",
+      "street": "548 Phetkasem Rd., Bangkhaenue",
+      "postbox": "Bangkhae",
+      "state": "Thailand",
+      "town": "Bangkhae",
+      "postalCode": "10160",
+      "countryCode": "TH"
     },
-    {
-      "prices": {
-        "listPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:18.046397"
+    "addressLocale": {},
+    "podAction": "ADD",
+    "wit": {
+      "actionForVssEvents": "ZAUS",
+      "guid": "051Mi3tQ7jsfks5eN4KqE0",
+      "primaryStatus": "M420",
+      "primaryStatusDescription": "ARRIVED AT DEALER",
+      "pakType": "U5_CKD",
+      "usage": "TN"
+    },
+    "fodInformation": {
+      "fodFlag": true,
+      "bookableInformation": [
+        {
+          "fodOptionCode": "SA5DN",
+          "optionCode": "SA6DR",
+          "contentOffer": [
+            {
+              "language": "en",
+              "title": "BMW Drive Recorder",
+              "shortDescription": "You get the picture: With the BMW Drive Recorder you can film beautiful landscapes as well as dangerous or critical driving situations in road traffic.",
+              "longDescription": "<strong>WHAT IS THE BMW DRIVE RECORDER?</strong><br>Automatically or manual activation – the BMW Drive Recorder films your surroundings for up to 40 seconds. This allows you to document dangerous driving situations in road traffic. With the BMW Drive Recorder, you can also collect wonderful memories of beautiful routes at the press of a button. Four integrated cameras mean that it is easy to shoot videos.<br /><br />The features described here may not be fully supported in all markets. May only be available with additional optional equipment. Availability of BMW ConnectedDrive Services are dependent on vehicle specification, optional equipment and production date. Please consult your local BMW Retailer for more information if required.<ul><li>Up to 40 seconds of video footage of your surroundings.</li><li>Automatic activation is triggered in the event of an accident.</li><li>Videos can also be saved manually at the press of a button.</li></ul>"
+            },
+            {
+              "language": "th",
+              "title": "BMW Drive Recorder",
+              "shortDescription": "มองเห็นด้วยตัวเอง: ด้วย BMW Drive Recorder คุณจะสามารถเก็บได้ทั้งภาพทิวทัศน์ที่แสนสวยงาม และสถานการณ์การขับขี่ที่สำคัญบนท้องถนนผ่านวิดีโอ",
+              "longDescription": "<strong>อะไรคือ BMW DRIVE RECORDER?</strong><br>BMW Drive Recorder สามารถบันทึกสภาพแวดล้อมของคุณได้ทั้งแบบอัตโนมัติหรือแมนนวลนานถึง 40 วินาที คุณจึงเก็บข้อมูลสถานการณ์การขับขี่ที่สำคัญบนท้องถนนได้อย่างแม่นยำโดยไม่จำเป็นต้องทำอะไรเพิ่มเติม นอกจากนี้คุณยังได้สะสมความทรงจำที่ยอดเยี่ยมโดยเฉพาะกับเส้นทางที่แสนสวยงามด้วย BMW Drive Recorder &nbsp;ได้ง่ายๆ ผ่านการสัมผัสปุ่ม การบันทึกโดยใช้กล้องในตัวนั้นเป็นไปอย่างง่ายดาย<br />&nbsp;<ul><li>การบันทึกวิดีโอสภาพแวดล้อมนานถึง 40 วินาที</li><li>ตัวส่งสัญญาณแบบอัตโนมัติสำหรับการเก็บข้อมูลสภาพการจราจรที่วุ่นวาย</li><li>บันทึกวิดีโอแบบแมนนวลบนปุ่มกด</li></ul>"
+            }
+          ],
+          "images": [
+            "/cmh-content/Base_Drive_Recorder/images/BMW_ConnDrive_DriveRecorder_Btn_60.png",
+            "/cmh-content/Base_Drive_Recorder/images/BMW-Drive-Recorder_180x100.jpg",
+            "/cmh-content/Base_Drive_Recorder/images/BMW-Drive-Recorder_600x338.jpg"
+          ],
+          "masterOffercode": "Base_Drive_Recorder",
+          "storeOffers": [
+            {
+              "offerCode": "O-177-STORE-BM-TH-00-1Y",
+              "contractPeriod": 12,
+              "contractPeriodUnit": "MONTHS",
+              "trial": false,
+              "price": 1790,
+              "lastPriceUpdateTs": "2023-06-22T12:41:59.293303",
+              "currency": "THB",
+              "priceType": "GROSS",
+              "formattedPriceAndCurrency": "THB 1,790.00",
+              "originalPrice": 0,
+              "segmentSpecificPrice": false
+            },
+            {
+              "offerCode": "O-177-STORE-BM-TH-00-LT",
+              "contractPeriod": 0,
+              "contractPeriodUnit": "UNKNOWN",
+              "trial": false,
+              "price": 9990,
+              "lastPriceUpdateTs": "2023-06-22T12:41:59.293332",
+              "currency": "THB",
+              "priceType": "GROSS",
+              "formattedPriceAndCurrency": "THB 9,990.00",
+              "originalPrice": 0,
+              "segmentSpecificPrice": false
+            },
+            {
+              "offerCode": "O-177-STORE-BM-TH-00-3Y",
+              "contractPeriod": 36,
+              "contractPeriodUnit": "MONTHS",
+              "trial": false,
+              "price": 3990,
+              "lastPriceUpdateTs": "2023-06-22T12:41:59.293352",
+              "currency": "THB",
+              "priceType": "GROSS",
+              "formattedPriceAndCurrency": "THB 3,990.00",
+              "originalPrice": 0,
+              "segmentSpecificPrice": false
+            },
+            {
+              "offerCode": "O-177-STORE-BM-TH-00-1MT",
+              "contractPeriod": 1,
+              "contractPeriodUnit": "MONTHS",
+              "trial": true,
+              "price": 0,
+              "lastPriceUpdateTs": "2023-06-22T12:41:59.293371",
+              "currency": "THB",
+              "priceType": "GROSS",
+              "formattedPriceAndCurrency": "THB 0.00",
+              "originalPrice": 0,
+              "segmentSpecificPrice": false
+            }
+          ]
         },
-        "salesPrice": {
-          "netPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "grossPrice": {
-            "amount": 0,
-            "currency": "EUR"
-          },
-          "updatedAt": "2023-05-17T04:08:17.844406"
+        {
+          "fodOptionCode": "SA534",
+          "optionCode": "SA01CR",
+          "contentOffer": [
+            {
+              "language": "en",
+              "title": "Remote Engine Start",
+              "shortDescription": "With the new Remote Engine Start feature, your BMW will always be at the temperature you want when you get in – and it is super easy to use.",
+              "longDescription": "<strong>WHAT IS REMOTE ENGINE START?</strong><br><p>With the Remote Engine Start feature, you can bring the interior of your BMW to the temperature you want at any time, even if you yourself are somewhere completely different. You can program this feature from the sofa at home, at the office, or while sitting in a restaurant.&nbsp; The Remote Engine Start feature starts your BMW's engine and air-conditioning system before you leave – completely automatically.</p><ul><li>Your vehicle already at the desired temperature when you get in.</li><li>Easy to operate with the BMW Connected app and the BMW Display Key.</li><li>Versatile and secure thanks to the automatic switch-off.</li></ul>"
+            },
+            {
+              "language": "th",
+              "title": "Remote Engine Start",
+              "shortDescription": "ฟังก์ชั่น Remote Engine Start ให้คุณสตาร์ทเครื่องยนต์ได้ก่อนก้าวขึ้นรถและปรับอุณหภูมิภายในห้องโดยสารให้เหมาะก่อนเดินทางได้",
+              "longDescription": "<strong>REMOTE ENGINE START คืออะไร</strong><br>ฟังก์ชั่น Remote Engine Start ช่วยเพิ่มความสะดวกสบายยิ่งกว่าเดิมไม่ว่าจะเป็นการสตาร์ทเครื่องยนต์ หรือปรับอุณหภูมิภายในห้องโดยสารให้พร้อมก่อนออกเดินทางได้จากระยะไกล เพียงเปิดใช้งานฟังก์ชั่นโดยใช้กุญแจรถ เปิดแอพ My BMW บนสมาร์ทโฟน หรือตั้งเวลาในเมนูระบบปรับอากาศของรถยนต์ BMW<ul><li>สัมผัสอุณหภูมิตามที่ต้องการทันทีที่ก้าวขึ้นรถ</li><li>ใช้งานผ่านกุญแจรถ สมาร์ทโฟน หรือตัวตั้งเวลาในรถ</li><li>ปรับเบาะนั่ง กระจกมองข้าง กระจกหลัง และพวงมาลัยให้อุ่นขึ้นก่อนเดินทางได้ตามฟีเจอร์ของอุปกรณ์รถ</li></ul>"
+            }
+          ],
+          "masterOffercode": "RES_Offer",
+          "storeOffers": [
+            {
+              "offerCode": "O-239-STORE-BM-TH-00-LT",
+              "externalOffer": "RSU",
+              "contractPeriod": 0,
+              "contractPeriodUnit": "UNKNOWN",
+              "trial": false,
+              "price": 9990,
+              "lastPriceUpdateTs": "2023-06-22T12:41:59.293378",
+              "currency": "THB",
+              "priceType": "GROSS",
+              "formattedPriceAndCurrency": "THB 9,990.00",
+              "originalPrice": 0,
+              "segmentSpecificPrice": false
+            }
+          ]
         }
-      }
-    }
-  ]
+      ],
+      "bookedInformation": []
+    },
+    "logisticStatus": "M420",
+    "salesStatus": "S070",
+    "salesStatusDescription": "INVOICED TO DEALER",
+    "isDirectSales": false,
+    "isOfferingTemplate": false,
+    "categorizedOptionGroups": {},
+    "isSpotlight": false,
+    "locationOutletNickname": "Barcelona Motor Bangkhae",
+    "hiddenStock": true,
+    "visibleForDealer": true
+  }
 }
