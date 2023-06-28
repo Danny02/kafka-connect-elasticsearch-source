@@ -52,7 +52,6 @@ public class ElasticSourceTask extends SourceTask {
     static final String POSITION = "position";
     static final String POSITION_SECONDARY = "position_secondary";
 
-
     private final OffsetSerializer offsetSerializer = new OffsetSerializer();
     private SchemaConverter schemaConverter;
     private StructConverter structConverter;

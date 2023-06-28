@@ -28,7 +28,7 @@
 
     <groupId>com.github.danny02</groupId>
     <artifactId>elastic-source-connect</artifactId>
-    <version>1.5.14</version>
+    <version>1.5.15</version>
 
     <licenses>
         <license>
@@ -121,6 +121,12 @@
 
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>

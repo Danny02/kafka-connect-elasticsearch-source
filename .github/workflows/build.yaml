@@ -32,6 +32,9 @@ jobs:
           mkdir doc
           mv LICENSE doc/
           mv README.md doc/
+          
+          VERSION=${{ env.RELEASE_VERSION }} envsubst < manifest.json > manifest.tmp
+          mv manifest.tmp manifest.json
 
       - name: Archive Release
         uses: montudor/action-zip@v1

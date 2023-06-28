@@ -16,6 +16,20 @@
 
 package com.github.dariobalinzo;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
 public class Version {
-    public static final String VERSION = "1.5.5";
+    public static final String VERSION;
+
+    static {
+        try (InputStream in = Version.class.getResourceAsStream("/lib.properties")) {
+            Properties lib = new Properties();
+            lib.load(in);
+            VERSION = lib.getProperty("version");
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+    }
 }
