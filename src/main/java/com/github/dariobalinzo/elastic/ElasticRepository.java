@@ -176,7 +176,6 @@ public final class ElasticRepository {
     public List<String> catIndices(String prefix) {
         Response resp;
         try {
-
             resp = elasticConnection.getClient()
                     .getLowLevelClient()
                     .performRequest(new Request("GET", "/_cat/indices"));
@@ -198,6 +197,8 @@ public final class ElasticRepository {
         } catch (IOException e) {
             logger.error("error while getting indices", e);
         }
+
+        Collections.sort(result);
 
         return result;
     }
